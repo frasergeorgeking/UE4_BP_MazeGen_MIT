@@ -78,6 +78,18 @@ class UE4_BP_MAZEGEN_MIT_API UAssetPicker : public UWidget
 	// Functions
 	UFUNCTION()
 	void OnAssetDoubleClicked(const FAssetData& AssetData);
+
+	//~ Begin UWidget Interface
+	virtual void SynchronizeProperties() override;
+	//~ End UWidget Interface
+
+	//~ Begin UVisual Interface
+	virtual void ReleaseSlateResources(bool bReleaseChildren) override;
+	//~ End UVisual Interface
+
+#if WITH_EDITOR
+	virtual const FText GetPaletteCategory() override;
+#endif
 	
 	protected:
 	// Start of Slate Interface

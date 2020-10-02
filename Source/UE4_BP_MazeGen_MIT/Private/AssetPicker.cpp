@@ -6,6 +6,8 @@
 #include "ContentBrowserModule.h"
 #include "IContentBrowserSingleton.h"
 
+#define LOCTEXT_NAMESPACE "UMG"
+
 TSharedRef<SWidget> UAssetPicker::RebuildWidget()
 {
     FOnAssetDoubleClicked OnAssetDoubleClicked;
@@ -68,3 +70,22 @@ void UAssetPicker::OnAssetDoubleClicked(const FAssetData& AssetData)
 {
     OnAssetDoubleClickedEvent.Broadcast(AssetData); // Execute BP Event
 }
+
+void UAssetPicker::SynchronizeProperties()
+{
+    Super::SynchronizeProperties();
+}
+
+void UAssetPicker::ReleaseSlateResources(bool bReleaseChildren)
+{
+    Super::ReleaseSlateResources(bReleaseChildren);
+}
+
+#if WITH_EDITOR
+
+const FText UAssetPicker::GetPaletteCategory()
+{
+    return LOCTEXT("Custom", "Custom");
+}
+
+#endif
