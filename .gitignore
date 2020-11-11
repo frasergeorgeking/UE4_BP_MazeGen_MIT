@@ -79,6 +79,9 @@ DerivedDataCache/*
 # Exported Maze CSVs
 MazeCSVExports/*
 
+# Exported Tile Data Tables
+TileDataTableCSVs/*
+
 # MacOS .DS_Store Exclusions
 .DS_Store
 ._.DS_Store
