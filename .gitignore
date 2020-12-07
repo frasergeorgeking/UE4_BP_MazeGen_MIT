@@ -1,6 +1,9 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+# Rider Specific files
+.idea/
+
 # Compiled Object files
 *.slo
 *.lo
@@ -72,3 +75,15 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Exported Maze CSVs
+MazeCSVExports/*
+
+# Exported Tile Data Tables
+TileDataTableCSVs/*
+
+# MacOS .DS_Store Exclusions
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
