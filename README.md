@@ -4,11 +4,12 @@
 
 ## Current Project Details
 * Latest Main Branch Release: v2.0
-* Unreal Engine Compatibility: 4.25+
+* Unreal Engine Compatibility: 4.25.x
 
 ## Key Functionality
 * Maze generator creates [perfect, solvable mazes](http://www.cr31.co.uk/stagecast/wang/perfect.html) through the implementation of a [sidewinder](https://weblog.jamisbuck.org/2011/2/3/maze-generation-sidewinder-algorithm) algorithm
-* Tile-based not wall-based, allowing for a complex range of custom tile geometry to be utilised
+* Key generator functionality written in Blueprint to provide accessibility for artists & designers - also easy to extend & modify!
+* Tile-based approach allows for complex tile geometry and maze generation with only 6 base tiles
 * Implements Unreal Engine 4's stream-based RNG, thereby enabling the use of custom seeds (ideal for synchronising states over a network etc...)
 * Import/Export maze state from .CSV
 * Custom Utility Widget for detailed in-engine generation
