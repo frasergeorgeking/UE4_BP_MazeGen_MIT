@@ -10,6 +10,6 @@ public class UE4_BP_MazeGen_MITEditorTarget : TargetRules
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 
-		ExtraModuleNames.AddRange( new string[] { "UE4_BP_MazeGen_MIT" } );
+		ExtraModuleNames.AddRange( new string[] { "UE4_BP_MazeGen_MIT", "MazeGenEditor" } );
 	}
 }
