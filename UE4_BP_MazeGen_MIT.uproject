@@ -15,8 +15,12 @@
 		},
 		{
 			"Name": "MazeGenEditor",
-    		"Type": "Editor",
-    		"LoadingPhase":  "PostEngineInit"
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"AdditionalDependencies": [
+				"UMG",
+				"Engine"
+			]
 		}
 	]
 }
