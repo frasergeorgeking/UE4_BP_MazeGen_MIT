@@ -3,8 +3,8 @@
 'UE4_BP_MazeGenerator' is a free and open source tile-based Maze Generator. The generator supports both in-editor and runtime maze generation and has extensive documentation via the [wiki](https://github.com/frasergeorgeking/UE4_BP_MazeGen_MIT/wiki). Key functionality has been implemented via blueprint as to make the project as accessible as possible.
 
 ## Current Project Details
-* Latest Main Branch Release: [v2.0](https://github.com/frasergeorgeking/UE4_BP_MazeGen_MIT/releases/tag/v2.0)
-* Unreal Engine Compatibility: 4.25.x (Experimental 4.26.x build available in [v2.0 release](https://github.com/frasergeorgeking/UE4_BP_MazeGen_MIT/releases/tag/v2.0))
+* Latest Main Branch Release: [v2.0.1](https://github.com/frasergeorgeking/UE4_BP_MazeGen_MIT/releases/tag/v2.0.1)
+* Unreal Engine Compatibility: 4.25.x (current master branch project version) & 4.26.x (available via [release](https://github.com/frasergeorgeking/UE4_BP_MazeGen_MIT/releases/tag/v2.0.1) or in-place upgrade).
 
 ## Key Functionality
 * Maze generator creates [perfect, solvable mazes](http://www.cr31.co.uk/stagecast/wang/perfect.html) through the implementation of a [sidewinder](https://weblog.jamisbuck.org/2011/2/3/maze-generation-sidewinder-algorithm) algorithm
