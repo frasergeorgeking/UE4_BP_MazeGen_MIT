@@ -13,14 +13,14 @@ UENUM(BlueprintType)
 enum EAssetViewTypeBP
 {
 	Column,
-	List,
-	Tile
+    List,
+    Tile
 };
 
-// This class acts as a UMG wrapper for the slate class SAssetPicker (SAssetPicker constructed via Content Browser Singleton)
+// This class acts as a UMG wrapper for the slate class SAssetPicker (SAssetPicker constructed via Content Browser Singleton).
 
 UCLASS()
-class UE4_BP_MAZEGEN_MIT_API UAssetPicker : public UWidget
+class MAZEGENEDITOR_API UAssetPicker : public UWidget
 {
 	GENERATED_BODY()
 

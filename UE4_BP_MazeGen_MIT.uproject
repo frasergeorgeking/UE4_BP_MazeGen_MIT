@@ -7,10 +7,15 @@
 		{
 			"Name": "UE4_BP_MazeGen_MIT",
 			"Type": "Runtime",
-			"LoadingPhase": "Default",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "MazeGenEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
 			"AdditionalDependencies": [
-				"Engine",
-				"UMG"
+				"UMG",
+				"Engine"
 			]
 		}
 	]
