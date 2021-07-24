@@ -4,7 +4,10 @@
 
 ## Current Project Details
 * Latest Main Branch Release: [v2.0.1](https://github.com/frasergeorgeking/UE4_BP_MazeGen_MIT/releases/tag/v2.0.1)
-* Unreal Engine Compatibility: 4.25.x (current master branch project version) & 4.26.x (available via [release](https://github.com/frasergeorgeking/UE4_BP_MazeGen_MIT/releases/tag/v2.0.1) or in-place upgrade).
+* Unreal Engine Compatibility:
+  - 4.25.x (current master branch project version)
+  - 4.26.x (available via [release](https://github.com/frasergeorgeking/UE4_BP_MazeGen_MIT/releases/tag/v2.0.1) or in-place upgrade)
+  - 5.0 EA (available via [release](https://github.com/frasergeorgeking/UE4_BP_MazeGen_MIT/releases/tag/v2.0.1) - in-place upgrade **not** recommended due to UE5 UI changes)
 
 ## Key Functionality
 * Maze generator creates [perfect, solvable mazes](http://www.cr31.co.uk/stagecast/wang/perfect.html) through the implementation of a [sidewinder](https://weblog.jamisbuck.org/2011/2/3/maze-generation-sidewinder-algorithm) algorithm
